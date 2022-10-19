@@ -10,7 +10,7 @@ import {
 import {publish as publishEvent} from './publish'
 import {subscribe as subscribeEvents, ConsumerConfig} from './subscribe'
 
-class Nats<PEvent, SEvent> {
+class Nats {
     private _nc!: NatsConnection;
     private _js!: JetStreamClient;
 
@@ -30,11 +30,11 @@ class Nats<PEvent, SEvent> {
         this._js = this._nc.jetstream()
     }
 
-    async publish(subject: string, event: PEvent) {
+    async publish<PEvent>(subject: string, event: PEvent) {
         await publishEvent<PEvent>(subject, event, this.js)
     }
 
-    async subscribe(subject: string, consumerConfig: ConsumerConfig, callbackFunc: (event: SEvent, msg: JsMsg) => void) {
+    async subscribe<SEvent>(subject: string, consumerConfig: ConsumerConfig, callbackFunc: (event: SEvent, msg: JsMsg) => void) {
         await subscribeEvents<SEvent>(subject, consumerConfig, callbackFunc, this.js)
     }
 
