@@ -1,4 +1,5 @@
 import {UserCreatedEvent} from './userCreatedEvent'
+import {UserAuthorizedEvent} from './userAuthorized'
 
 interface Event {
     
@@ -8,4 +9,4 @@ interface Event {
 
 
 
-export {Event, UserCreatedEvent}
+export {Event, UserCreatedEvent, UserAuthorizedEvent}

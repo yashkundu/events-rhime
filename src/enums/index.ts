@@ -3,7 +3,8 @@ enum noun {
 }
 
 enum verb {
-    created = 'created'
+    created = 'created',
+    authorized = 'authorized'
 }
 
 export {noun, verb}
