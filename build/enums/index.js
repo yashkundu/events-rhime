@@ -9,5 +9,6 @@ exports.noun = noun;
 var verb;
 (function (verb) {
     verb["created"] = "created";
+    verb["authorized"] = "authorized";
 })(verb || (verb = {}));
 exports.verb = verb;

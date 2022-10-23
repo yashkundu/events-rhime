@@ -1,10 +1,12 @@
 enum noun {
-    user = 'user'
+    user = 'user',
+    post = 'post'
 }
 
 enum verb {
     created = 'created',
-    authorized = 'authorized'
+    authorized = 'authorized',
+    deleted = 'deleted'
 }
 
 export {noun, verb}
