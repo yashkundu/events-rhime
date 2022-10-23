@@ -1,8 +1,8 @@
 
-
+// email and userName are redundant :(
 interface UserCreatedEvent {
     userId: string;
-    email: string;
+    email: string;               
     userName: string
 }
 
