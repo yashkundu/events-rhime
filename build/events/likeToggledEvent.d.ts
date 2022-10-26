@@ -1,4 +1,4 @@
 interface LikeToggledEvent {
-    likeId: string;
+    itemId: string;
 }
 export { LikeToggledEvent };

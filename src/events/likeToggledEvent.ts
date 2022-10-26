@@ -1,7 +1,8 @@
 
 
 interface LikeToggledEvent {
-    itemId: string
+    itemId: string,
+    userId: string
 }
 
 export {LikeToggledEvent}
