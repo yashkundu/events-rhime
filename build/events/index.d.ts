@@ -1,7 +1,7 @@
 import { UserCreatedEvent } from './userCreatedEvent';
 import { UserAuthorizedEvent } from './userAuthorizedEvent';
 import { PostCreatedEvent } from './postCreatedEvent';
-import { ItemToggledEvent } from './itemToggledEvent';
+import { LikeToggledEvent } from './likeToggledEvent';
 interface Event {
 }
-export { Event, UserCreatedEvent, UserAuthorizedEvent, PostCreatedEvent, ItemToggledEvent };
+export { Event, UserCreatedEvent, UserAuthorizedEvent, PostCreatedEvent, LikeToggledEvent };
