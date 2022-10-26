@@ -13,6 +13,6 @@ var verb;
     verb["created"] = "created";
     verb["authorized"] = "authorized";
     verb["deleted"] = "deleted";
-    verb["toggle"] = "toggle"; // make another nats for it to increase efficiency :(
+    verb["toggle"] = "toggled"; // make another nats for it to increase efficiency :(
 })(verb || (verb = {}));
 exports.verb = verb;
