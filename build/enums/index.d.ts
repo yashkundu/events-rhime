@@ -7,6 +7,6 @@ declare enum verb {
     created = "created",
     authorized = "authorized",
     deleted = "deleted",
-    toggle = "toggled"
+    toggled = "toggled"
 }
 export { noun, verb };
