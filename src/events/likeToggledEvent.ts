@@ -7,7 +7,7 @@ interface LikeToggledEvent {
     // but daily cron job will correct the count
     //   1 - the user has liked the post
     //   -1 - the user has disliked the post
-    num: number,
+    type: number,
     
     
     // unique id which will prevent the multiple handling of the events in the consumers
