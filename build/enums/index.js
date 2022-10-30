@@ -5,6 +5,7 @@ var noun;
 (function (noun) {
     noun["user"] = "user";
     noun["post"] = "post";
+    noun["comment"] = "comment";
     noun["like"] = "like"; // make another nats for it :(
 })(noun || (noun = {}));
 exports.noun = noun;
