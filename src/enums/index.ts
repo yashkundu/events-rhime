@@ -1,6 +1,7 @@
 enum noun {
     user = 'user',
     post = 'post',
+    comment = 'comment',
     like = 'like'           // make another nats for it :(
 }
 
