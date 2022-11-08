@@ -10,7 +10,7 @@ enum verb {
     authorized = 'authorized',
     deleted = 'deleted',
     toggled = 'toggled',      // make another nats for it to increase efficiency :(
-    cacheStaled = 'cacheStaled'
+    feedStaled = 'feedStaled'
 }
 
 export {noun, verb}

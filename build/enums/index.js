@@ -14,6 +14,7 @@ var verb;
     verb["created"] = "created";
     verb["authorized"] = "authorized";
     verb["deleted"] = "deleted";
-    verb["toggled"] = "toggled"; // make another nats for it to increase efficiency :(
+    verb["toggled"] = "toggled";
+    verb["cacheStaled"] = "cacheStaled";
 })(verb || (verb = {}));
 exports.verb = verb;

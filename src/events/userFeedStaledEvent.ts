@@ -1,7 +1,7 @@
 
 // The user have followed or unfollowed someone :(
-    interface UserCacheStaledEvent {
+    interface UserFeedStaledEvent {
         userId: string;
     }
     
-    export {UserCacheStaledEvent}
+    export {UserFeedStaledEvent}
