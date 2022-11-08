@@ -1,6 +1,6 @@
 {
   "name": "@rhime/events",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "The events module for rhime",
   "main": "./build/index.js",
   "files": [
