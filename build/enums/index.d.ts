@@ -9,6 +9,6 @@ declare enum verb {
     authorized = "authorized",
     deleted = "deleted",
     toggled = "toggled",
-    cacheStaled = "cacheStaled"
+    feedStaled = "feedStaled"
 }
 export { noun, verb };

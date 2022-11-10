@@ -15,6 +15,6 @@ var verb;
     verb["authorized"] = "authorized";
     verb["deleted"] = "deleted";
     verb["toggled"] = "toggled";
-    verb["cacheStaled"] = "cacheStaled";
+    verb["feedStaled"] = "feedStaled";
 })(verb || (verb = {}));
 exports.verb = verb;
